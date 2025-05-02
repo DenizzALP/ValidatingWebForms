@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Validating Web Forms</h1>
+        <form onsubmit="return validateForm(event)">
+            <div class="mini-container">
+                <h3 class="label">First Name</h1>
+                <input type="text" name="" id="first-name">
+                <p class="info-msg">First Name must be alphanumeric and contain 3 - 16 characters</p>
+            </div>
+            <div class="mini-container">
+                <h3 class="label">Last Name</h1>
+                <input type="text" name="" id="last-name">
+                <p class="info-msg">Last Name must be alphanumeric and contain 3 - 16 characters</p>
+            </div>
+            <div class="mini-container">
+                <h3 class="label">Email</h1>
+                <input type="text" name="" id="email">
+                <p class="info-msg">Email must be a valid address, e.g. example@example.com</p>
+            </div>
+            <div class="mini-container">
+                <h3 class="label">Password</h1>
+                <input type="text" name="" id="password">
+                <p class="info-msg">Password must be alphanumeric (@, _and - are also allowed)and between 6 - 20 characters</p>
+            </div>
+            <div class="mini-container">
+                <h3 class="label">Telephone</h1>
+                <input type="text" name="" id="telephone">
+                <p class="info-msg">A valid Telephone number (11 digits and 333-333-3334)</p>
+            </div>
+            <div class="mini-container">
+                <h3 class="label">Your Bio</h1>
+                <input type="text" name="" id="bio">
+                <p class="info-msg">Bio must contain only lowercase letters, underscores, hyphends and be 8 - 50 characters</p>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </form>    
+    </div>
+    <br><br><br>
+    <script src="./script.js"></script>
+</body>
+</html>
