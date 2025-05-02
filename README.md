@@ -29,12 +29,13 @@ This project is a simple yet powerful demonstration of **form validation using R
 ---
 
 ## Project Structure
+```
 project/
 │
 ├── index.html # Main HTML form
 ├── style.css # Styling for layout and feedback
 └── script.js # Validation logic with regex
-
+```
 ---
 
 ## Validation Rules (RegEx Patterns)
